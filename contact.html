@@ -57,7 +57,7 @@
         </div>
         <div class="container">
             <!--Logo - Get SVGs if you can.  I use fiverr to get png's turned into SVGs. Highly recommend it, worth the $20 - get a light and dark version-->
-            <a class="logo" aria-label="click to go to home page" href="index.html">
+            <a class="logo" aria-label="click to go to home page" href="/index.html">
                 <!--Light Colored Logo, remove .dark image tag and the .light class if you don't have a dark and light version -->
                 <img class="light" aria-hidden="true" src="images/cointech-logo.png" decoding="async" alt="logo" width="221" height="66">
 
@@ -95,11 +95,11 @@
         <!-- ============================================ -->
     
         <section id="int-hero">
-            <h1 id="home-h">Questions fréquentes</h1>
+            <h1 id="home-h">FAQ</h1>
             <picture>
-                <source media="(max-width: 600px)" srcset="images/landing-m.jpg">
-                <source media="(min-width: 601px)" srcset="images/landing.jpg">
-                <img aria-hidden="true" loading="lazy" decoding="async" src="images/landing.jpg" alt="" width="400" height="662">
+                <source media="(max-width: 600px)" srcset="images/pic1-m.jpg">
+                <source media="(min-width: 601px)" srcset="images/pic1.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="images/pic1.jpg" alt="" width="400" height="662">
             </picture>
         </section>
 
@@ -107,67 +107,57 @@
         <!--                    FORM                      -->
         <!-- ============================================ -->
 
-        <section id="form">
-            <div class="left-section">
-                <h2 class="title">Send a Message</h2>
-                <p>If you have any questions or concerns please feel free to reach out to us.  We respond to every call and email.</p>
-                <form id="contact" name="Contact Form2" method="post" data-netlify="true">
-                        <div class="input-group">
-                            <label for="name">Full Name</label>
-                            <input id="name" aria-label="name" class="input1" name="name" placeholder="Full Name" type="text" tabindex="1" required>
-                            <div aria-hidden="true" class="hover-box"></div>
-                        </div>
-
-                        <div class="input-group">
-                            <label for="email">Email</label>
-                            <input id="email" aria-label="email" class="input1 right" name="email" placeholder="Email Address" type="email" tabindex="2" required>
-                            <div aria-hidden="true" class="hover-box"></div>
-                        </div>
-
-                        <div class="input-group">
-                            <label for="phone">Phone</label>
-                            <input id="phone" aria-label="phone number" class="input1" name="phone" placeholder="Phone Number" type="tel" tabindex="3" required>
-                            <div aria-hidden="true" class="hover-box"></div>
-                        </div>
-                        <div class="input-group">
-                            <label for="location">Location</label>
-                            <input id="location" aria-label="location" class="input1 right" name="location" placeholder="Your Location" type="text" tabindex="4" required>
-                            <div aria-hidden="true" class="hover-box"></div>
-                        </div>
-                        <div class="input-group">
-                            <label for="how">How did you hear about us</label>
-                            <input id="how" aria-label="how did you hear about us" name="hear" placeholder="How Did You Hear About Us" type="text" tabindex="5" required>
-                            <div aria-hidden="true" class="hover-box"></div>
-                        </div>
-                        <div class="input-group textarea">
-                            <label for="message">Message</label>
-                            <textarea id="message" aria-label="write your message" name="message" placeholder="Tell us about what you need help with" tabindex="6" required></textarea>
-                            <div aria-hidden="true" class="hover-box"></div>
-                        </div>
-                    <p class="form-submit">
-                        <button name="submit" type="submit" id="contact-submit" class="button-solid" data-submit="...Sending">Submit</button>
-                    </p>
-                </form>
+        <div class="accordion">
+            <div class="accordion-item">
+              <h2 id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">C'est quoi un IP TV</span>
+                <span class="icon" aria-hidden="true"></span>
+              </h2>
+              <div class="accordion-content">
+                <p>La télévision IP, ou télévision sur IP, télévision par ADSL ou IPTV est une forme de télévision diffusée sur un réseau utilisant l'Internet</p>
+              </div>
             </div>
-            <div class="contact-right">
-                <div class="info-group">
-                    <span class="heading">Location</span>
-                    <span class="info">Denver, CO</span>
-                </div>
-                <div class="info-group">
-                    <span class="heading">Phone</span>
-                    <a class="info" href="tel:555-779-4407">(555) 779-4407</a>
-                </div>
-                <div class="info-group">
-                    <span class="heading">Email</span>
-                    <a class="info" href="mailto:email@email.com">Click to Email</a>
-                </div>
-                <div class="info-group">
-                    <span class="heading">Hours</span>
-                    <span class="info last">Mon to Fri: 8am to 6pm</span>
-                </div>
+            <div class="accordion-item">
+              <h2 id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">Puis-je utiliser mon abonnement sur plusieurs appareils ?</span>
+                <span class="icon" aria-hidden="true"></span>
+              </h2>
+              <div class="accordion-content">
+                <p>Veuillez noter qu’un seul abonnement peut être utilisé sur plusieurs appareils, mais que vous ne pouvez regarder que sur un seul appareil à la fois.</p>
+              </div>
             </div>
-        </section>
+            <div class="accordion-item">
+              <h2 id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">Mon abonnement commence-t-il à être actif juste après le paiement ?</span>
+                <span class="icon" aria-hidden="true"></span>
+              </h2>
+              <div class="accordion-content">
+                <p>L’abonnement commence à partir du moment où vous recevrez vos informations d’identification d’activation dans votre courrier électronique 
+                  ou par un message Whatsapp. vous recevez généralement vos détails d’abonnements dans un délai que ne dépasse pas les 24 heures qui suivent votre commande.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">Combien de temps avant que je puisse utiliser le service ?</span>
+                <span class="icon" aria-hidden="true"></span>
+              </h2>
+              <div class="accordion-content">
+                <p>Vous aurez votre abonnement dans un délai qui ne dépasseras pas les 24 heures, mais généralement tous les 
+                  abonnements sont envoyés dans les 30 minutes qui suivent votre commande.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">Quelle application installer pour mon Smart TV android / Box Android Ou téléphone portable</span>
+                <span class="icon" aria-hidden="true">
+                </span>
+              </h2>
+              <div class="accordion-content">
+                <p>Vous pouvez installer gratuitement l'application Smarters Iptv sur touts ces appareils gratuitement, et il y a aussi des applications payantes
+                  comme Iboplayer , smarter IPTV PRO , Iflix et plus qui offrent plus de stabilité .</p>
+              </div>
+            </div>
+            
         
     </main>
 
@@ -181,10 +171,14 @@
                 <a class="logo" href="index.html"><img loading="lazy" decoding="async" src="images/cointech-logo.png" alt="logo" width="264" height="78"></a>
             </div>
             <div class="right-section">
-                <div class="lists">
-                    
-                </div>
-            </div>
+              <div class="lists">
+                  <ul>
+                      <li><h2>Contact</h2></li>
+                      <li><a href="https://wa.link/uy8ckz">WhatsApp</a></li>
+                      <li><a href="mailto:email@email.com">Click to Email</a></li>
+                  </ul>
+              </div>
+          </div>
         </div>
 
         <div class="credit">
@@ -192,6 +186,7 @@
             <a href="" target="_blank" rel="noopener">CoinTech</a>
             <span class="copyright"> Copyright 2021 - Present</span></div>
     </footer>
+    
 
     <script defer src="nav.js"></script>
     <script defer src="dark.js"></script>
@@ -210,6 +205,20 @@
             }
         });
     </script>
+
+<script>
+    const items = document.querySelectorAll(".accordion-item h2");
+    function toggleAccordion() {
+      const itemToggle = this.getAttribute('aria-expanded');
+      for (i = 0; i < items.length; i++) {
+        items[i].setAttribute('aria-expanded', 'false');
+      }
+      if (itemToggle == 'false') {
+        this.setAttribute('aria-expanded', 'true');
+      }
+    }
+    items.forEach(item => item.addEventListener('click', toggleAccordion));
+  </script>
 
 </body>
 </html>
